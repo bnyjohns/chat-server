@@ -1,0 +1,15 @@
+{
+  "name": "graphql-chat-server",
+  "version": "1.0.0",
+  "description": "chat server using graphql server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-type-json": "^0.2.1",
+    "graphql-yoga": "^1.16.7"
+  }
+}
