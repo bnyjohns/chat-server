@@ -9,4 +9,4 @@ pipelines:
           - curl -O https://bootstrap.pypa.io/get-pip.py
           - python get-pip.py
           - pip install awscli
-          - aws create-stack --stack-name s3BucketCreation --template-url ./template.yml --parameters ParameterKey=BucketName,ParameterValue=bjohns.first.bucket 
+          - aws cloudformation create-stack --stack-name s3BucketCreation --template-url ./template.yml --parameters ParameterKey=BucketName,ParameterValue=bjohns.first.bucket 
