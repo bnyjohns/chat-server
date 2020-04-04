@@ -1,3 +1,3 @@
-# graphql-chat-server
+# chat-server
 
 Chat server that uses GraphQL
